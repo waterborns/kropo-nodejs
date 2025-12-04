@@ -4,10 +4,11 @@ Description=Kropotkin unit service
 [Service]
 ExecStart=/opt/bots/kropo/app/index.ts
 Restart=always
-User=kropo
-Group=kropo
+User=kropotkin
+Group=kropotkin
 Environment=PATH=/opt/bots/kropo/.nvm/versions/node/v24.11.1/bin:/usr/bin:/usr/local/bin
-Environment=NODE_ENV=production;KROPO_TOKEN=<replace-with-actual-token>
+Environment=NODE_ENV=production
+Environment=KROPO_TOKEN=<replace-with-actual-token>
 WorkingDirectory=/opt/bots/kropo/app
 
 [Install]
