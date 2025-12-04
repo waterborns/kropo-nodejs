@@ -1,3 +1,5 @@
+#!/opt/bots/kropo/.nvm/versions/node/v24.11.1/bin/ts-node
+
 // ECMAscript/TypeScript
 import { TelegramClient } from "telegramsjs";
 
